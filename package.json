@@ -1,0 +1,17 @@
+{
+  "name": "designsbyssm-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DesignsBySSM creative agency website",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "dependencies": {
+    "qrcode-generator": "^2.0.4"
+  }
+}
